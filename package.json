@@ -20,6 +20,7 @@
     "cors": "^2.8.5",
     "deploy": "^1.0.3",
     "express": "^4.19.2",
+    "gh-pages": "^6.1.1",
     "install": "^0.13.0",
     "react": "^18.3.0",
     "react-alice-carousel": "^2.9.1",
@@ -38,6 +39,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start:backend": "node src/server/server.js"
   },
   "eslintConfig": {
