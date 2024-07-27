@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.abf6d7a1.css",
+    "main.js": "/static/js/main.08efca29.js",
+    "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
+    "static/media/BackSide.webp": "/static/media/BackSide.03c325223065dcd444a7.webp",
+    "static/media/BackgroundMain.png": "/static/media/BackgroundMain.acb3a13f50d7b583b5b5.png",
+    "static/media/kitchen.webp": "/static/media/kitchen.07f2184d933b92fc97da.webp",
+    "static/media/PhotoPanel.webp": "/static/media/PhotoPanel.4d49cf69b56db7cecec5.webp",
+    "static/media/PhotoUnderWindow.webp": "/static/media/PhotoUnderWindow.a4937aad4e47a302cdb6.webp",
+    "static/media/SectionsPhotoOne.webp": "/static/media/SectionsPhotoOne.95dd0df70c99e3fb37de.webp",
+    "static/media/sofa.webp": "/static/media/sofa.fb31fb4975a79f140b92.webp",
+    "static/media/MirrorAndShowerTwo.webp": "/static/media/MirrorAndShowerTwo.ebcc225cca6fd661b379.webp",
+    "static/media/Phototabletop.webp": "/static/media/Phototabletop.13fbfb529ee708a242c6.webp",
+    "static/media/Duschewaya.webp": "/static/media/Duschewaya.53e297c7958be4681a39.webp",
+    "static/media/PhotoSink.webp": "/static/media/PhotoSink.0356d4f8552b3c3de6a7.webp",
+    "static/media/KitchenTwo.webp": "/static/media/KitchenTwo.0f17fbd9cbd4bb5350bb.webp",
+    "static/media/MirrorAndShower.webp": "/static/media/MirrorAndShower.dbad4d1e620828d2d05c.webp",
+    "static/media/test.svg": "/static/media/test.9033d9137465c3722b93856a342aae15.svg",
+    "static/media/Horizon logo 1.svg": "/static/media/Horizon logo 1.36bc50aa80b2bea69445004966d513d9.svg",
+    "static/media/Vasa.webp": "/static/media/Vasa.b94d41c44956734f5679.webp",
+    "static/media/SVGspride.svg": "/static/media/SVGspride.0643fe54b3d143cfe9e2bde2c5bf219d.svg",
+    "index.html": "/index.html",
+    "main.abf6d7a1.css.map": "/static/css/main.abf6d7a1.css.map",
+    "main.08efca29.js.map": "/static/js/main.08efca29.js.map",
+    "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abf6d7a1.css",
+    "static/js/main.08efca29.js"
+  ]
+}
