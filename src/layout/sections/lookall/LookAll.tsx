@@ -24,7 +24,7 @@ export const LookAll = (props: LookAllType) => {
         justify={props.justify}
       >
         <ArrowDiv paddingtop={props.paddingtop} paddingleft={props.paddingleft} Keyboardcolor={props.Keyboardcolor} beforeright={props.beforeright} beforetop={props.beforetop} beforeleft={props.beforeleft}>
-          <LookAlldiv href="/katalog">
+          <LookAlldiv href="/MyProject/katalog">
             <ArrowA color={props.color}>СМОТРЕТЬ ВСЕ</ArrowA>
             <WrapperKeyboardArrowRightIcon>
               <KeyboardArrowRightIcon sx={{ color: props.Keyboardcolor }} />

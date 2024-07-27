@@ -8,8 +8,8 @@ import { KatalogPart } from "./layout/sections/katalog/KatalogPart/KatalogPart";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Front />} />
-      <Route path="/katalog" element={<KatalogPart />} />
+      <Route path="/MyProject" element={<Front />} />
+      <Route path="/MyProject/katalog" element={<KatalogPart />} />
     </Routes>
   );
 }
