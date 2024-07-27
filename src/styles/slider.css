@@ -1,0 +1,21 @@
+.alice-carousel__dots {
+    margin: 0;
+    
+}
+.alice-carousel__dots-item:not(.__custom) {
+ display: inline-block;
+ width: 40px;
+ height: 5px;
+ border-radius: 0%;
+ background-color: red;
+}
+.alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active {
+    background-color: #28553F;
+}
+
+.alice-carousel__prev-btn {
+    display: none;
+}
+.alice-carousel__next-btn {
+    display:none;
+}

@@ -1,0 +1,62 @@
+.swiperone {
+    width: 100%;
+.swiper {
+    bottom: -30px;
+  }
+  .swiper-slide {
+    height: 740px;
+    padding-left: 400px;
+  }
+  
+  .swiper-button-next {
+    background-color: #28553f;
+    color: #ffffff;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    top: 660px;
+    left: 62px;
+  
+    font-weight: bold;
+  }
+  .swiper-button-next::after {
+    transform: scale(0.5);
+  }
+  .swiper-button-prev {
+    background-color: #28553f;
+    color: #ffffff;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    top: 660px;
+    font-weight: bold;
+  }
+  .swiper-button-prev::after {
+    transform: scale(0.5);
+  }
+  .swiper-button-disabled{
+      background-color: #000000;
+      border: 1px solid white;
+  }
+  
+  .swiper-pagination {
+    display: flex;
+    justify-content: flex-start;
+    gap:10px;
+    padding-left: 10px;
+    
+  }
+  .swiper-pagination-bullet {
+      
+      width: 40px;
+      border-radius: 4px;
+      height: 4px;
+      background-color: white;
+      opacity: 1;
+      
+  }
+  .swiper-pagination-bullet-active {
+      background-color: #28553f;
+  }
+}
+
