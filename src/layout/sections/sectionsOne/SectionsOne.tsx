@@ -7,7 +7,7 @@ import { UlLists } from "./sectionComponents/UlLists";
 
 export const SectionsOne = () => {
   return (
-    <StyledSections id={"blog"}>
+    <StyledSections id="blog">
       <SectionTitle
         SectionTitlePrimery="НАШИ ПРЕЙМУЩЕСТВА - "
         SectionTitleGreen="ВАШ РЕЗУЛЬТАТ"

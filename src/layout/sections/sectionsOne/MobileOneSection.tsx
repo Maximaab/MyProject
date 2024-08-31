@@ -7,7 +7,7 @@ import { UlLists } from "./sectionComponents/UlLists";
 
 export const SectionsOneMobile = () => {
   return (
-    <StyledSections id={"blog"}>
+    <StyledSections id={"katalog"}>
       <SectionTitle
         SectionTitlePrimery="НАШИ ПРЕЙМУЩЕСТВА - "
         SectionTitleGreen="ВАШ РЕЗУЛЬТАТ"

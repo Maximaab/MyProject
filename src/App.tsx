@@ -10,6 +10,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Front />} />
       <Route path="/katalog" element={<KatalogPart />} />
+      
     </Routes>
   );
 }

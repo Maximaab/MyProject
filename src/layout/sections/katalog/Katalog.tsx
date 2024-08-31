@@ -41,7 +41,7 @@ export const KatalogOfProduction = () => {
 
 
   return (
-    <KatalogStyled>
+    <KatalogStyled id='katalog'>
       <LocalContainer>
         <KatalogHeader />
         <ContainerSection>

@@ -12,7 +12,7 @@ import { MainMobile } from "../sections/main/MainMobile"
 import { SectionTwoMobile } from "../sections/sectionTwo/SectionTwoMobile"
 
 export const Front = () =>{
-    return <div>
+    return <div id="blog">
         <HeaderMobile/>
         <Header />
       <Main />

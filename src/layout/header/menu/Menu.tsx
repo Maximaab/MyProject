@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Thema } from "../../../styles/Thema";
-import { To, useNavigate } from "react-router-dom";
-import { log } from "console";
+import { Link, To, useNavigate } from "react-router-dom";
+
 
 export const itemMenu = [
   {
@@ -33,18 +33,26 @@ export const itemMenu = [
 
 export const Menu = () => {
   const navigation = useNavigate();
-  console.log(navigation)
-  
+  console.log(navigation);
+
   return (
     <StyledMenu>
       <ul>
-        {itemMenu.map((item, index) => {
-          return (
-            <NavLink key={index}>
-              <a href={`#${item.href}`}>{item.name}</a>
-            </NavLink>
-          );
-        })}
+        <NavLink>
+          <Link to="#blog">БЛОГ</Link>
+          </NavLink>
+          <NavLink>
+          <Link to="#katalog">КАТАЛОГ</Link>
+          </NavLink>
+          <NavLink>
+          <Link to="#price">АКЦИИ</Link>
+          </NavLink>
+          <NavLink>
+          <Link to="#cooperation">СОТРУДНИЧЕСТВО</Link>
+          </NavLink>
+          <NavLink>
+          <Link to="#paymentanddelivery">ОПЛАТА И ДОСТАВКА</Link>
+          </NavLink>
       </ul>
     </StyledMenu>
   );
